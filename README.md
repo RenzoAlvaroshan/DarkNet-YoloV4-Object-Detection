@@ -1,12 +1,25 @@
 # Learning Notes - DarkNet YoloV4 Object Detection Tutorial for Windows 10
 
-This is a tutorial on Installing DarkNet Yolov4 prepared by, and adopted from, TheCodingBug channel from YouTube. This learning notes is for my own guide for future reference and is shared for you who encounter a problem on installing DarkNet Yolov4 for Windows 10 using Nvidia CUDA GPU and OpenCV.
+![hqdefault](https://user-images.githubusercontent.com/55566616/128143459-7fb461b1-7ab4-4bc8-91d4-6ffdd941aff1.jpg)
 
-### References:
+Learning Notes - DarkNet YoloV4 Object Detection Tutorial for Windows 10
 
-Darknet YOLOv4 Object Detection Tutorial for Windows 10 on Images, Videos, and Webcams
+---
 
+**Purpose**: This is a tutorial on Installing DarkNet Yolov4 prepared by, and adopted from, TheCodingBug channel from YouTube. This learning notes is for my own guide for future reference and is shared for you who encounter a problem on installing DarkNet Yolov4 for Windows 10 using Nvidia CUDA GPU and OpenCV.
+
+**References**:
+
+- Darknet YOLOv4 Object Detection Tutorial for Windows 10 on Images, Videos, and Webcams
 <https://www.youtube.com/watch?v=FE2GBeKuqpc&t=7s>
+
+**Steps**:
+1. Building DarkNet
+2. Object Detection on Images
+3. Object Detection on Videos
+4. Object Detection on Webcam
+
+---
 
 ## 01 Building DarkNet
 
@@ -131,7 +144,7 @@ This is the result
 Predicting time needed
 <img width="1440" alt="Pasted Graphic 56" src="https://user-images.githubusercontent.com/55566616/126862124-cab09038-4111-4192-a45e-15f2f2d76118.png">
 
-**02 Object Detection on Videos**
+**03 Object Detection on Videos**
 
 Run this command: darknet. exe detector demo cfg/coco.data cfg/yolov4.cfg yolov4.weights japan.mp4
 <img width="1440" alt="Pasted Graphic 58" src="https://user-images.githubusercontent.com/55566616/126862126-f2a8f9e0-5fa6-4a3e-9ff2-43853e3a35aa.png">
@@ -142,7 +155,7 @@ This is the result
 The Average FPS: 13.5
 <img width="1440" alt="Pasted Graphic 60" src="https://user-images.githubusercontent.com/55566616/126862132-1dd9314c-0496-4eac-9b2c-14b7c78aa55d.png">
 
-**03 Object Detection on Webcam**
+**044 Object Detection on Webcam**
 
 Run this command: darknet.exe detector demo cfg/coco.data cfg/yolov4.cfg yolov4.weights-c 0
 <img width="1440" alt="Pasted Graphic 61" src="https://user-images.githubusercontent.com/55566616/126862139-c8865cf3-9019-4aa7-946f-e154cc5bf5b1.png">
