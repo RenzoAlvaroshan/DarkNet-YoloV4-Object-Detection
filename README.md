@@ -68,6 +68,61 @@ Select `Desktop development with C++` option for Studio Code C++ support
 
 <img width="1440" alt="Installation details" src="https://user-images.githubusercontent.com/55566616/126863270-c24e8363-53b4-405d-b130-51cbd7b83ade.png">
 
+You may need to reboot your computer after installing Visual Studio.
+
+### (3) Cuda Toolkit Update
+
+Now download [CUDA Toolkit 11.0 Update Downloads](developer.nvidia.com/cuda-11.0-update1-download-archive?target_os=Windows&target_arch=x86_64): `developer.nvidia.com/cuda-11.0-update1-download-archive?target_os=Windows&target_arch=x86_64`
+
+Choose `Windows` operating system for `Select Target Platform`.
+
+<img width="1440" alt="Resources" src="https://user-images.githubusercontent.com/55566616/126863551-7019a69a-7f41-4b75-bc71-7ee6a98f8afb.png">
+
+<img width="1440" alt="CUDA Toolkit Archive" src="https://user-images.githubusercontent.com/55566616/126863557-16f0e0f4-6d68-4004-9386-608281295170.png">
+
+Choose `CUDA Toolkit 11.0 Update 1 Downloads`:
+
+<img width="1440" alt="CUDA Toolkit 11 0 Update 1 Downloads" src="https://user-images.githubusercontent.com/55566616/126863575-928096f3-e790-4bc5-8eb6-fb0d728b8247.png">
+
+Choose the following options:
+
+* Operating System: `Windows`
+* Architecture: `x86_84`
+* Version: `10`
+* Installer Type: `exe (local)`
+
+<img width="1440" alt="Pasted Graphic 11" src="https://user-images.githubusercontent.com/55566616/126863930-4190691d-becf-4379-bd5b-90c09b9f3dd2.png">
+<img width="1440" alt="Pasted Graphic 12" src="https://user-images.githubusercontent.com/55566616/126863932-eeda04b4-03fa-402f-8944-4c65650a8fd9.png">
+<img width="1440" alt="cuDNN Download" src="https://user-images.githubusercontent.com/55566616/126863933-9c7b22b7-f63c-4293-9688-4b22d8dbe9d0.png">
+
+Click `Download cuDNN v8.0.5 (November 9th, 2020), for CUDA 11.0` to expand the driver list:
+
+<img width="1440" alt="Library for Windows and Linux, Ubuntulx86_64   PPC architecture)" src="https://user-images.githubusercontent.com/55566616/126863946-19fcb2f6-e307-4fd3-9ef0-c860377ee33d.png">
+
+Click `cuDNN Library for Windows (x86)` now the driver will be downloading.
+
+Extract the driver file (.zip) you just downloaded:
+
+<img width="1440" alt="Pasted Graphic 15" src="https://user-images.githubusercontent.com/55566616/126863951-ecae92ed-050c-4e9d-b630-7851aa87ad2b.png">
+
+Then copy the extracted files and folder inside `cudnn-11.0-windows-x64-v8.0.5.39` to:
+
+`(C:) › Program Files › NVIDIA GPU Computing Toolkit › CUDA › v11.0 >`
+
+<img width="1440" alt="Pasted Graphic 17" src="https://user-images.githubusercontent.com/55566616/126863961-5e1d3db3-6e89-4724-b816-daa72bd57cee.png">
+
+Here you will replace some files and folders with new ones:
+
+* `bin`
+* `include`
+* `lib`
+* `NVIDIA_SLA_cuDNN_Support.txt`
+
+<img width="1440" alt="Pasted Graphic 16" src="https://user-images.githubusercontent.com/55566616/126863972-8e0c6784-cfd8-4273-9ba1-fe68bca4b165.png">
+
+
+
+
 ---
 
 ## 03 Download Darknet
