@@ -54,13 +54,17 @@ Download [Anaconda Installer](anaconda.com/products/individual): `anaconda.com/p
 
 ### (2) Microsoft Visual Studio
 
-Next, download [Visual Studio Community 2019 16.7.2](https://visualstudio.microsoft.com/vs/community/) Community Edition: `https://visualstudio.microsoft.com/vs/community/`
-
-<img width="1440" alt="components Language packs" src="https://user-images.githubusercontent.com/55566616/126863268-c9f0dd02-4bc3-4408-a886-0dc58b908d85.png">
+Next, download [Visual Studio Community 2019 16.7.2](https://visualstudio.microsoft.com/vs/community/) – the Community Edition: `https://visualstudio.microsoft.com/vs/community/`
 
 <img width="1440" alt="Screen Shot 2021-08-04 at 16 32 31" src="https://user-images.githubusercontent.com/55566616/128158376-40d6c9bf-6643-48db-b7bc-dd477432e5a2.png">
 
+Then, run the installer:
+
+<img width="1440" alt="Screen Shot 2021-08-04 at 16 37 30" src="https://user-images.githubusercontent.com/55566616/128158980-a0ce3357-d1f6-4dd3-b871-5fd3c67ccec9.png">
+
 Select `Desktop development with C++` option for Studio Code C++ support
+
+<img width="1440" alt="components Language packs" src="https://user-images.githubusercontent.com/55566616/126863268-c9f0dd02-4bc3-4408-a886-0dc58b908d85.png">
 
 <img width="1440" alt="Installation details" src="https://user-images.githubusercontent.com/55566616/126863270-c24e8363-53b4-405d-b130-51cbd7b83ade.png">
 
