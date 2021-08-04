@@ -6,8 +6,6 @@ Learning Notes - DarkNet YoloV4 Object Detection Tutorial for Windows 10
 
 ---
 
-**Purpose**: This is a tutorial on Installing DarkNet Yolov4 prepared by, and adopted from, TheCodingBug channel from YouTube. This learning notes is for my own guide for future reference and is shared for you who encounter a problem on installing DarkNet Yolov4 for Windows 10 using Nvidia CUDA GPU and OpenCV.
-
 Source: [YouTube Com (2021) - Darknet YOLOv4 Object Detection Tutorial for Windows 10 on Images, Videos, and Webcams (TheCodingBug channel)](<https://www.youtube.com/watch?v=FE2GBeKuqpc&t=7s>)
 
 **Table of Contents**:
@@ -24,6 +22,8 @@ Source: [YouTube Com (2021) - Darknet YOLOv4 Object Detection Tutorial for Windo
 
 ## 01 Introduction
 
+**Purpose**: This is a tutorial on Installing DarkNet Yolov4 prepared by, and adopted from, TheCodingBug channel from YouTube. This learning notes is for my own guide for future reference and is shared for you who encounter a problem on installing DarkNet Yolov4 for Windows 10 using Nvidia CUDA GPU and OpenCV.
+
 **Steps**:
 1. Building DarkNet
 2. Object Detection on Images
@@ -34,11 +34,11 @@ Source: [YouTube Com (2021) - Darknet YOLOv4 Object Detection Tutorial for Windo
 
 ## 02 Prerequisite
 
-1. Anaconda
-2. Visual Studio
-3. Cuda
-4. CUDNN
-5. OpenCV
+1. [Anaconda](https://www.anaconda.com/products/individual)
+2. [Visual Studio](https://visualstudio.microsoft.com/downloads/)
+3. [Cuda](https://developer.nvidia.com/cuda-toolkit-archive)
+4. [CUDNN](https://developer.nvidia.com/rdp/cudnn-archive)
+5. [OpenCV](https://github.com/AlexeyAB/darknet)
 
 ---
 
@@ -189,6 +189,7 @@ Also copy a video to test the model (for ex: `japan.mp4`)
 ---
 
 ## 04 Copy cuDNN and OpenCV Files: (3:55)
+
 
 
 ---
