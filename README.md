@@ -34,11 +34,11 @@ Source: [YouTube Com (2021) - Darknet YOLOv4 Object Detection Tutorial for Windo
 
 ## 02 Prerequisite
 
-1. [Anaconda](https://www.anaconda.com/products/individual)
-2. [Visual Studio](https://visualstudio.microsoft.com/downloads/)
-3. [Cuda](https://developer.nvidia.com/cuda-toolkit-archive)
-4. [CUDNN](https://developer.nvidia.com/rdp/cudnn-archive)
-5. [OpenCV](https://github.com/AlexeyAB/darknet)
+1. [Anaconda](https://www.anaconda.com/products/individual) — package manager for mutiple version of virtual environment for Python and associated packages .
+4. [Visual Studio](https://visualstudio.microsoft.com/downloads/) – integrated development environment
+5. [Cuda](https://developer.nvidia.com/cuda-toolkit-archive) — Compute Unifided Device Architecture (NVIDIA® GPU computing device driver)
+6. [CUDNN](https://developer.nvidia.com/rdp/cudnn-archive) — NVIDIA® CUDA® deep neural network
+7. [OpenCV](https://github.com/AlexeyAB/darknet) — Computer Vision python/C++ library for machine learning
 
 ---
 
