@@ -8,8 +8,7 @@ Learning Notes - DarkNet YoloV4 Object Detection Tutorial for Windows 10
 
 **Purpose**: This is a tutorial on Installing DarkNet Yolov4 prepared by, and adopted from, TheCodingBug channel from YouTube. This learning notes is for my own guide for future reference and is shared for you who encounter a problem on installing DarkNet Yolov4 for Windows 10 using Nvidia CUDA GPU and OpenCV.
 
-**References**:
-[Darknet YOLOv4 Object Detection Tutorial for Windows 10 on Images, Videos, and Webcams](<https://www.youtube.com/watch?v=FE2GBeKuqpc&t=7s>)
+Source: [Darknet YOLOv4 Object Detection Tutorial for Windows 10 on Images, Videos, and Webcams](<https://www.youtube.com/watch?v=FE2GBeKuqpc&t=7s>)
 
 **Steps**:
 1. Building DarkNet
@@ -17,15 +16,22 @@ Learning Notes - DarkNet YoloV4 Object Detection Tutorial for Windows 10
 3. Object Detection on Videos
 4. Object Detection on Webcam
 
+**Prerequisite**:
+1. Anaconda
+2. Visual Studio
+3. Cuda
+4. CUDNN
+5. OpenCV
+
 ---
 
 ## 01 Building DarkNet
 
-First, download [Darknet](http://github.com/AlexeyAB/darknet) repository from GitHub (.zip format)
+First, download [Darknet](http://github.com/AlexeyAB/darknet) from `AlexeyAB/darknet` repository on GitHub (.zip format)
 
 <img width="1440" alt="Pasted Graphic 10" src="https://user-images.githubusercontent.com/55566616/126861852-cc87ef82-91a2-497c-9b66-49793437c5b4.png">
 
-The, create a folder name `Darknet` in your root directory `C:\`
+The, create a folder name `darknet` in your root directory `C:\`
 
 <img width="1440" alt="Pasted Graphic 11" src="https://user-images.githubusercontent.com/55566616/126861865-c60c8e81-fcd4-47a5-82d9-fa6f2568e8b4.png">
 
@@ -33,7 +39,7 @@ Open this directory: `C:/darknet/darknet-master/build/darknet/x64`
 
 <img width="1440" alt="Pasted Graphic 12" src="https://user-images.githubusercontent.com/55566616/126861871-e08c4975-5208-4bac-9e9b-b9aaa6e8b8e0.png">
 
-Open new window: `C:/Program Files/ NVIDIA GPU/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/cudnn64_7.dll`
+Open new window: `C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/bin/cudnn64_7.dll`
 
 <img width="1440" alt="Pasted Graphic 13" src="https://user-images.githubusercontent.com/55566616/126861884-8a8c3150-7182-4dcb-a6ac-1eb621de3b67.png">
 
@@ -145,7 +151,7 @@ Right click on `darknet` and `build`
 
 <img width="1440" alt="Pasted Graphic 46" src="https://user-images.githubusercontent.com/55566616/126862040-8b98a7f6-aa14-4089-927c-09af950283b7.png">
 
-After finished without error, close the Visual Studio Code. You will find your `darknet.exe` inside `darknet › darknet-master › build › darknet › x64`
+After finished without error, close the Visual Studio. You will find your `darknet.exe` inside `darknet › darknet-master › build › darknet › x64`
 
 <img width="1440" alt="Pasted Graphic 47" src="https://user-images.githubusercontent.com/55566616/126862044-a003219c-6d23-476f-8511-7fc12988bdec.png">
 
