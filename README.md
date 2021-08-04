@@ -42,15 +42,27 @@ Source: [YouTube Com (2021) - Darknet YOLOv4 Object Detection Tutorial for Windo
 
 ### (1) Anaconda Installer
 
-Download [Anaconda Installer](anaconda.com/products/individual): `anaconda.com/products/individual`
+Download [Anaconda Installer](anaconda.com/products/individual): `anaconda.com/products/individual` then install it with default options.
 
-<img width="1440" alt="Anaconda Installers" src="https://user-images.githubusercontent.com/55566616/126862305-4bf9c0e8-b08f-4043-af9b-3743383f28a4.png">
+<img width="1440" alt="Screen Shot 2021-08-04 at 16 25 46" src="https://user-images.githubusercontent.com/55566616/128157585-ae41933a-ee18-471f-8e02-cbc2fe4537a7.png">
 
 <img width="490" alt="Anaconda3 2020 11 (64-bit) Setup" src="https://user-images.githubusercontent.com/55566616/126862344-4c2dab10-b0c8-44df-a60e-2480f2d75c7f.png">
 <img width="491" alt="ANACONDA  Choose the folder in which to instal Anaconda3 2020 11 (64-bit)" src="https://user-images.githubusercontent.com/55566616/126862348-409286e2-6648-4f38-8917-55f68b22d734.png">
 <img width="492" alt="Anaconda3 2020 11 (64-bit) Setup" src="https://user-images.githubusercontent.com/55566616/126862350-e348542b-7c5d-4bf3-8b91-b775248fa60a.png">
 <img width="494" alt="Anaconda3 2020 11 (64-bit) Setup" src="https://user-images.githubusercontent.com/55566616/126862351-30e796ad-1f3b-4ceb-8404-673a6c1cbf54.png">
 <img width="496" alt="2020 11 (64-bit) Setup" src="https://user-images.githubusercontent.com/55566616/126862355-be434046-0792-4a68-a556-73d1e5eb9948.png">
+
+### (2) Microsoft Visual Studio
+
+Next, download [Visual Studio Community 2019 16.7.2](https://visualstudio.microsoft.com/vs/community/) Community Edition: `https://visualstudio.microsoft.com/vs/community/`
+
+<img width="1440" alt="components Language packs" src="https://user-images.githubusercontent.com/55566616/126863268-c9f0dd02-4bc3-4408-a886-0dc58b908d85.png">
+
+<img width="1440" alt="Screen Shot 2021-08-04 at 16 32 31" src="https://user-images.githubusercontent.com/55566616/128158376-40d6c9bf-6643-48db-b7bc-dd477432e5a2.png">
+
+Select `Desktop development with C++` option for Studio Code C++ support
+
+<img width="1440" alt="Installation details" src="https://user-images.githubusercontent.com/55566616/126863270-c24e8363-53b4-405d-b130-51cbd7b83ade.png">
 
 ---
 
