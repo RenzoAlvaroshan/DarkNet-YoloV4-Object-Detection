@@ -8,7 +8,21 @@ Learning Notes - DarkNet YoloV4 Object Detection Tutorial for Windows 10
 
 **Purpose**: This is a tutorial on Installing DarkNet Yolov4 prepared by, and adopted from, TheCodingBug channel from YouTube. This learning notes is for my own guide for future reference and is shared for you who encounter a problem on installing DarkNet Yolov4 for Windows 10 using Nvidia CUDA GPU and OpenCV.
 
-Source: [Darknet YOLOv4 Object Detection Tutorial for Windows 10 on Images, Videos, and Webcams](<https://www.youtube.com/watch?v=FE2GBeKuqpc&t=7s>)
+Source: [YouTube Com (2021) - Darknet YOLOv4 Object Detection Tutorial for Windows 10 on Images, Videos, and Webcams (TheCodingBug channel)](<https://www.youtube.com/watch?v=FE2GBeKuqpc&t=7s>)
+
+**Table of Contents**:
+1. Introduction: (0:00)
+2. Prerequisite: (0:21)
+3. Download Darknet: (03:31)
+4. Copy cuDNN and OpenCV Files: (3:55)
+5. Build Darknet using Visual Studio: (4:50)
+6. Object Detection on Images: (8:53)
+7. Object Detection on Videos: (9:48)
+8. Object Detection on Webcams: (10:34)
+
+---
+
+## 01 Introduction
 
 **Steps**:
 1. Building DarkNet
@@ -16,7 +30,10 @@ Source: [Darknet YOLOv4 Object Detection Tutorial for Windows 10 on Images, Vide
 3. Object Detection on Videos
 4. Object Detection on Webcam
 
-**Prerequisite**:
+---
+
+## 02 Prerequisite
+
 1. Anaconda
 2. Visual Studio
 3. Cuda
@@ -25,13 +42,13 @@ Source: [Darknet YOLOv4 Object Detection Tutorial for Windows 10 on Images, Vide
 
 ---
 
-## 01 Building DarkNet
+## 03 Download Darknet
 
 First, download [Darknet](http://github.com/AlexeyAB/darknet) from `AlexeyAB/darknet` repository on GitHub (.zip format)
 
 <img width="1440" alt="Pasted Graphic 10" src="https://user-images.githubusercontent.com/55566616/126861852-cc87ef82-91a2-497c-9b66-49793437c5b4.png">
 
-The, create a folder name `darknet` in your root directory `C:\`
+Then, create a folder name `darknet` in your root directory `C:\`
 
 <img width="1440" alt="Pasted Graphic 11" src="https://user-images.githubusercontent.com/55566616/126861865-c60c8e81-fcd4-47a5-82d9-fa6f2568e8b4.png">
 
@@ -171,7 +188,19 @@ Also copy a video to test the model (for ex: `japan.mp4`)
 
 ---
 
-## 02 Object Detection on Images
+## 04 Copy cuDNN and OpenCV Files: (3:55)
+
+
+---
+
+## 05 Build Darknet using Visual Studio: (4:50)
+
+
+
+
+---
+
+## 06 Object Detection on Images: (8:53)
 
 Open Anaconda prompt. Run: `darknet.exe detector test cfg/coco.data cfg/yolov4.cfg yolov4. weights`
 
@@ -191,7 +220,7 @@ Predicting time needed
 
 ---
 
-## 03 Object Detection on Videos
+## 07 Object Detection on Videos: (9:48)
 
 Run this command: `darknet. exe detector demo cfg/coco.data cfg/yolov4.cfg yolov4.weights japan.mp4`
 
@@ -207,7 +236,7 @@ The Average FPS: 13.5
 
 ---
 
-## 044 Object Detection on Webcam
+## 08 Object Detection on Webcams: (10:34)
 
 Run this command: `darknet.exe detector demo cfg/coco.data cfg/yolov4.cfg yolov4.weights-c 0`
 
@@ -218,3 +247,8 @@ Run this command: `darknet.exe detector demo cfg/coco.data cfg/yolov4.cfg yolov4
 Thank you for reading the repository 🙏
 
 Good luck! 💪
+
+
+---
+
+tag: `#learning` `#notes` `#darknet` `#yolov4` `#object` `#detection` `#tutorial` `#windows` `#2021` `#thecodingbugchannel` `#youtube` `#$$$$$`
