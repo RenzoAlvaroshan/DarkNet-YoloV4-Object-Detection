@@ -12,7 +12,7 @@ References:
 Download [github.com/AlexeyAB/darknet](http://github.com/AlexeyAB/darknet) repository in ZIP
 <img width="1440" alt="Pasted Graphic 10" src="https://user-images.githubusercontent.com/55566616/126861852-cc87ef82-91a2-497c-9b66-49793437c5b4.png">
 
-Create "darknet" folder![Uploading Pasted Graphic 10.png…]()
+Create "darknet" folder
 <img width="1440" alt="Pasted Graphic 11" src="https://user-images.githubusercontent.com/55566616/126861865-c60c8e81-fcd4-47a5-82d9-fa6f2568e8b4.png">
 
 Open this directory: C:/darknet/darknet-master/build/darknet/x64
