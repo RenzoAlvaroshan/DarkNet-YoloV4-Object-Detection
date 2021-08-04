@@ -1,13 +1,14 @@
-# DarkNet-YoloV4-Object-Detection
-My self guide on how to use DarkNet framework to create Object Detection or Image Classification on Windows 10 using Nvidia CUDA GPU and OpenCV
+# Learning Notes - DarkNet YoloV4 Object Detection Tutorial for Windows 10
 
-References:
+This is a tutorial on Installing DarkNet Yolov4 prepared by, and adopted from, TheCodingBug channel from YouTube. This learning notes is for my own guide for future reference and is shared for you who encounter a problem on installing DarkNet Yolov4 for Windows 10 using Nvidia CUDA GPU and OpenCV.
 
-**Darknet YOLOv4 Object Detection Tutorial for Windows 10 on Images, Videos, and Webcams**
+### References:
+
+Darknet YOLOv4 Object Detection Tutorial for Windows 10 on Images, Videos, and Webcams
 
 <https://www.youtube.com/watch?v=FE2GBeKuqpc&t=7s>
 
-**01 Building DarkNet**
+## 01 Building DarkNet
 
 Download [github.com/AlexeyAB/darknet](http://github.com/AlexeyAB/darknet) repository in ZIP
 <img width="1440" alt="Pasted Graphic 10" src="https://user-images.githubusercontent.com/55566616/126861852-cc87ef82-91a2-497c-9b66-49793437c5b4.png">
