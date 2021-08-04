@@ -34,11 +34,23 @@ Source: [YouTube Com (2021) - Darknet YOLOv4 Object Detection Tutorial for Windo
 
 ## 02 Prerequisite
 
-1. [Anaconda](https://www.anaconda.com/products/individual) — package manager for mutiple version of virtual environment for Python and associated packages .
-4. [Visual Studio](https://visualstudio.microsoft.com/downloads/) – integrated development environment
-5. [Cuda](https://developer.nvidia.com/cuda-toolkit-archive) — Compute Unifided Device Architecture (NVIDIA® GPU computing device driver)
-6. [CUDNN](https://developer.nvidia.com/rdp/cudnn-archive) — NVIDIA® CUDA® deep neural network
-7. [OpenCV](https://github.com/AlexeyAB/darknet) — Computer Vision python/C++ library for machine learning
+1. [Anaconda](https://www.anaconda.com/products/individual) — package manager for mutiple version of virtual environment for Python and associated packages
+4. [Visual Studio](https://visualstudio.microsoft.com/downloads/) – Integrated Development Environment (IDE) by Microsoft®
+5. [CUDA](https://developer.nvidia.com/cuda-toolkit-archive) — Computing Unified Device Architecture (NVIDIA® GPU computing device driver)
+6. [CUDNN](https://developer.nvidia.com/rdp/cudnn-archive) — CUDA® Deep Neural Network (NVIDIA®)
+7. [OpenCV](https://github.com/AlexeyAB/darknet) — Python/C++ library for Computer Vision machine learning
+
+### (1) Anaconda Installer
+
+Download [Anaconda Installer](anaconda.com/products/individual): `anaconda.com/products/individual`
+
+<img width="1440" alt="Anaconda Installers" src="https://user-images.githubusercontent.com/55566616/126862305-4bf9c0e8-b08f-4043-af9b-3743383f28a4.png">
+
+<img width="490" alt="Anaconda3 2020 11 (64-bit) Setup" src="https://user-images.githubusercontent.com/55566616/126862344-4c2dab10-b0c8-44df-a60e-2480f2d75c7f.png">
+<img width="491" alt="ANACONDA  Choose the folder in which to instal Anaconda3 2020 11 (64-bit)" src="https://user-images.githubusercontent.com/55566616/126862348-409286e2-6648-4f38-8917-55f68b22d734.png">
+<img width="492" alt="Anaconda3 2020 11 (64-bit) Setup" src="https://user-images.githubusercontent.com/55566616/126862350-e348542b-7c5d-4bf3-8b91-b775248fa60a.png">
+<img width="494" alt="Anaconda3 2020 11 (64-bit) Setup" src="https://user-images.githubusercontent.com/55566616/126862351-30e796ad-1f3b-4ceb-8404-673a6c1cbf54.png">
+<img width="496" alt="2020 11 (64-bit) Setup" src="https://user-images.githubusercontent.com/55566616/126862355-be434046-0792-4a68-a556-73d1e5eb9948.png">
 
 ---
 
